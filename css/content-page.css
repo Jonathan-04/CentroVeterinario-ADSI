@@ -149,4 +149,8 @@ aside {
   .aside {
     width: 80%;
   }
+
+  .content-form ul li input {
+    width: 60%;
+  }
 }
