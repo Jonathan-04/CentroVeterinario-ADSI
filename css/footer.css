@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  background-color: #0b2826;
+  text-align: center;
+}
+
+footer ul {
+  padding: 20px;
+}
+
+footer ul li {
+  color: white;
+  margin: 5px;
+}

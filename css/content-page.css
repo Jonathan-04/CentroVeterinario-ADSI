@@ -1,0 +1,152 @@
+/* -------------- INFORMACIÓN DE LA PAGINA -------------------- */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  width: 60%;
+}
+
+section {
+  background-color: white;
+  margin: 10px;
+  justify-content: center;
+}
+
+section h2 {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.flex-content {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-info p {
+  width: 70%;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.content-info a {
+  color: #5b7b6f;
+  font-weight: bold;
+}
+
+/* Imagen del Section */
+.content-image {
+  width: 200px;
+}
+
+.content-image img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(144, 144, 144);
+  border-radius: 10px;
+}
+
+/* ----------------- FORMULARIO ---------------- */
+
+.aside {
+  width: 40%;
+}
+
+aside {
+  background-color: #496e6d;
+  color: white;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+#title-form {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  background-color: #0b2826;
+}
+
+.content-form ul {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.content-form ul li {
+  display: flex;
+  padding: 10px;
+}
+
+.content-form ul li p {
+  width: 30%;
+  font-weight: bold;
+}
+
+.content-form ul li input {
+  width: 50%;
+  color: #3a3a3a;
+  padding: 2px;
+  border-style: none;
+  font-size: 18px;
+  outline: 0px;
+  border-bottom: 1px solid silver;
+}
+
+.btn-submit {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn-submit input[type="submit"] {
+  width: 50%;
+  letter-spacing: 1px;
+  padding: 8px;
+  font-size: 15px;
+  background: #194947;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.btn-submit input[type="submit"]:hover {
+  background: #04201e;
+}
+
+/* --------- RESPONSIVE ---------- */
+@media screen and (max-width: 780px) {
+  .content-form ul li input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  /* Article informacion */
+  main {
+    flex-wrap: wrap;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .content-image {
+    width: 300px;
+  }
+
+  .content-info p {
+    width: 80%;
+  }
+
+  /* Formulario */
+  .aside {
+    width: 80%;
+  }
+}
