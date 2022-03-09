@@ -135,6 +135,7 @@ aside {
 
   .article {
     width: 100%;
+    margin-top: 50px;
   }
 
   .content-image {
@@ -148,6 +149,8 @@ aside {
   /* Formulario */
   .aside {
     width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   .content-form ul li input {
